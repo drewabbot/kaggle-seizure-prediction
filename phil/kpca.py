@@ -36,8 +36,8 @@ def gogo_kpca( fxpath, mpath ):
 
         print 'breed%d.subject%d..' % ( nbreed, nsubject )
 
-        X_inter = load_features( fxpath, nbreed, nsubject, 1 )
-        X_ictal = load_features( fxpath, nbreed, nsubject, 2 )
+        X_ictal = load_features( fxpath, nbreed, nsubject, 1 )
+        X_inter = load_features( fxpath, nbreed, nsubject, 2 )
 
         X = vstack((X_inter, X_ictal))
         del X_inter, X_ictal; gc.collect()

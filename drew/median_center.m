@@ -1,5 +1,5 @@
 
-function median_center( prefix, K, p )
+function median_center( prefix )
 
   ipath = sprintf( '%s.csv', prefix );
   opath = sprintf( '%s.medcent.csv', prefix );
