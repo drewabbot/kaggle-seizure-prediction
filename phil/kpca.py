@@ -2,6 +2,7 @@
 from load_features import load_features
 from utils import *
 
+from numpy import vstack
 from sklearn.decomposition import KernelPCA 
 
 import gc
