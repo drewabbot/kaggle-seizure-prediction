@@ -1,6 +1,6 @@
 
 function train_and_compact( nbreed, nsubject, mpath, fxpath )
-  assert( nargin==3 || nargin==3 );
+  assert( nargin==3 || nargin==4 );
 
   B = { 'dog', 'human' };
   sbreed = B{nbreed};
