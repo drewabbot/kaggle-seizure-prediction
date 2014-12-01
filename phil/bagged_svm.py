@@ -3,6 +3,7 @@ from load_features import load_features
 from utils import *
 
 from numpy import array
+from numpy import vstack
 
 import pandas as pd
 import sys
